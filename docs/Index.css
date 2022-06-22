@@ -92,7 +92,7 @@ body{padding: 0; margin: 0;}
  
 /* Quem Somos */
 
-.section1{ height: 50vw;background-color: papayawhip; border: solid 1.8px rgb(20, 36, 138); }
+.section1{ height: 55vw;background-color: papayawhip; border: solid 1.8px rgb(20, 36, 138); }
   .molding1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
