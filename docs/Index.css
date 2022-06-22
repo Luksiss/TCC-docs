@@ -92,7 +92,7 @@ body{padding: 0; margin: 0;}
  
 /* Quem Somos */
 
-.section1{ height: 45vw;background-color: papayawhip; border: solid 1.8px rgb(20, 36, 138); }
+.section1{ height: 50vw;background-color: papayawhip; border: solid 1.8px rgb(20, 36, 138); }
   .molding1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -101,7 +101,7 @@ body{padding: 0; margin: 0;}
   grid-row-gap: 0px;
   }
   
-  .div1 { grid-area: 1 / 1 / 2 / 2;padding-top: 2vw ;}
+  .div1 { grid-area: 1 / 1 / 2 / 2;padding-top: 2.5vw ; padding-left: 3vw;}
   .div2 { grid-area: 1 / 2 / 2 / 3; margin-top: 2vw;padding-right: 4vw }
   .btnSM { font-size: 3vw;
     font-family: font2; text-align: center; align-content: center; display:flexbox;
