@@ -1,3 +1,0 @@
-//#region  image slider
-
-//#endregion 
