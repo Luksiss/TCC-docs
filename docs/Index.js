@@ -1,3 +1,4 @@
-//#region  image slider
+//#region Gerador de curiosidade
 
-//#endregion 
+
+//#endregion
