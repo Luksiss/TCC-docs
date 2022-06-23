@@ -62,18 +62,21 @@ body{padding: 0; margin: 0;}
   }
 
 
-  .header1 { background-color: rgb(249, 245, 255); height: 5vw; border: solid 1.8px rgb(20, 36, 138); margin-left: auto; margin-right: auto; padding: 3vh; font-size: 3vw;font-family:Font2;  }
+  .header1 { background-color: rgb(249, 245, 255); height: 5vw; border: solid 0.1vw rgb(20, 36, 138); margin-left: auto; margin-right: auto; padding: 3vh; font-size: 3vw;font-family:Font2;  }
  
-  .header2 { background-color: rgb(249, 245, 255); height: 3.5vw; border: solid 1.8px rgb(20, 36, 138); margin-left: auto; margin-right: auto; padding: 3vh; padding-left: 10vw; font-size: 3.5vw;font-family:Font2;  }
+  .header2 { background-color: rgb(249, 245, 255); height: 3.5vw; border: solid 0.1vw rgb(20, 36, 138); margin-left: auto; margin-right: auto; padding: 3vh; padding-left: 10vw; font-size: 3.5vw;font-family:Font2;  }
 
 @media (max-width:800px){
 
   .header1,.header2{
     font-size: 4vw;
   }
+}
 
-  .section1{height: 60vw;}
- .section2{ height: 60vw;}
+@media (max-width:768px){
+
+
+
 }
 
  /* NAV end */
@@ -92,7 +95,7 @@ body{padding: 0; margin: 0;}
   grid-row-gap: 0px;
   }
   
-  .div3 { grid-area: 1 / 2 / 2 / 3; text-decoration:wavy; ; font-family: font1;  margin-left: 10vw;
+  .div3 { grid-area: 1 / 2 / 2 / 3; text-decoration:wavy; ; font-family: font1;  margin-left: 8vw;
   }
 
   .waviy2 {
@@ -120,7 +123,7 @@ body{padding: 0; margin: 0;}
  
 /* Quem Somos */
 
-.section1{ height: 50vw;background-color: papayawhip; border: solid 1.8px rgb(20, 36, 138); }
+.section1{ background-color: papayawhip; border: solid 0.1vw rgb(20, 36, 138); }
   .molding1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -189,7 +192,7 @@ transform: scaleX(1);
 /* Quem Somos End */
 
 /* Por que participar */
-.section2 {height: 50vw; border: solid 1px ; background-color:rgb(253, 82, 0) ; 
+.section2 { border: solid 1px ; background-color:rgb(253, 82, 0) ; 
 }
 .molding2 {
   display: grid;
@@ -328,9 +331,46 @@ input:checked + input ~ input:before {
 /* Sections end */
 
 /* Footer */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
-.foot{height: 20vw; border: solid 1.8px rgb(20, 36, 138) ; background-color:rgb(253, 82, 0) ; 
+.foot{height: 20vw; border: solid 0.1vw rgb(20, 36, 138) ; background-color:rgb(253, 82, 0) ; 
 }
 
 .molding4 {
@@ -363,7 +403,7 @@ input:checked + input ~ input:before {
     }
   }
 
-.IOS {width:10vw;}
+.IOS {width:10vw; filter: brightness(0);}
 
 .Totvs{ width: 10vw; margin-bottom: 1.5vw;
 
