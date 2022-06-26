@@ -263,8 +263,8 @@ i:after {
 	right: 1rem;
 }
 
-/* I haven't found a way for IE and Edge to let me style inputs that way */
-input {
+/* I haven't found a way for IE and Edge to let me style .inputs that way */
+.input {
 	appearance: none;
 	-ms-appearance: none;
 	-webkit-appearance: none;
@@ -283,11 +283,11 @@ input {
 	z-index: 1;
 }
 
-input:focus {
+.input:focus {
 	outline: none;
 }
 
-input:after {
+.input:after {
 	content: attr(title);
 	position: absolute;
 	top: 1rem;
@@ -299,7 +299,7 @@ input:after {
 	border-radius: 5px;
 }
 
-input:not(checked):before {
+.input:not(checked):before {
 	content: '';
 	position: absolute;
 	width: 2rem;
@@ -309,23 +309,23 @@ input:not(checked):before {
 	left: calc(-100% + 1rem);
 }
 
-input:checked:before {
+.input:checked:before {
 	display: none;
 	left: 1rem;
 }
 
-input:checked {
+.input:checked {
 	transform: translateX(0);
   pointer-events: none;
 	z-index: 0;
 	box-shadow: -5px 10px 20px -15px rgba(0,0,0,1);
 }
 
-input:checked + input:before {
+.input:checked + .input:before {
 	left: -3rem;
 }
 
-input:checked + input ~ input:before {
+.input:checked + .input ~ .input:before {
 	display: none;
 }
 
@@ -497,5 +497,15 @@ input:checked + input ~ input:before {
 
 
    /* Forms*/
+.section6{background-color: rgb(42, 45, 52); padding-top: 2vw;}
 
-   
+
+
+   .pagamento{ display: block;
+margin-left:auto ;
+margin-right: auto;
+  width: 50%;
+  padding-bottom: 4vw;
+ 
+  }
+  
