@@ -6,8 +6,10 @@
     src:url(Lofi.otf)
 }
 
-body{padding: 0; margin: 0;}
- 
+body {padding: 0; margin: 0;}
+
+
+
 .float {float: right;}
 /* Home */
 
@@ -30,11 +32,13 @@ body{padding: 0; margin: 0;}
 
 
 /* NAV start */
+
+
+
 .logo {text-align:start; margin-right: 2vw;font-size: 3vw;   background: linear-gradient(to right, #000 20%, #000 30%, #000 70%, rgb(253, 82, 0) 80%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
     background-size: 200% auto;
     animation: textShine 5s ease-in-out infinite ;
     font-family:Font1 ;
@@ -54,7 +58,7 @@ body{padding: 0; margin: 0;}
     transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
     text-decoration: none;
     text-align: right;
-   
+  
 }
 .nav:hover {
     box-shadow: inset 20vw 0 0 0 rgb(253, 82, 0);
@@ -312,7 +316,7 @@ input:checked:before {
 
 input:checked {
 	transform: translateX(0);
-  pointer-event: none;
+  pointer-events: none;
 	z-index: 0;
 	box-shadow: -5px 10px 20px -15px rgba(0,0,0,1);
 }
@@ -426,7 +430,7 @@ input:checked + input ~ input:before {
   /* Sobre */
   
   /* Sobre nós */
-  .section5{background-color: rgb(253, 82, 0); border: solid 0.1vw rgb(20, 36, 138) }
+  .section5{ height: 95vw;background-color: rgb(253, 82, 0); border: solid 0.1vw rgb(20, 36, 138) }
    
    .waviy {
     position: relative;
@@ -483,9 +487,15 @@ input:checked + input ~ input:before {
 .div10 {background-color: rgb(253, 82, 0); padding-top: 3vw;} 
 
 /* Sobre nós End */
-.section6 {height: 60vw; ; background-color:papayawhip;}
-.div11 { }
+
+
+
 
 
                               
    /* Sobre End */
+
+
+   /* Forms*/
+
+   
