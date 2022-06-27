@@ -1,4 +1,10 @@
 
+function reset() {
+    document.getElementById("card-info").classList.remove('blocko');
+    document.getElementById("pix-info").classList.remove('blocko');
+    document.getElementById("paypal-info").classList.remove('blocko');
+}
+
 
 function card() {
     document.getElementById("card-info").classList.add('blocko');
