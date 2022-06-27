@@ -50,15 +50,15 @@
 
 
 <div class="div16"> 
-<button class="botao1" id="cartao" onclick="card()" type="button"><img src="cartão.png" width="80%" id="img"></button>
+<button class="botao1" id="cartao" onclick="card()" type="button"><img src="cartão.png" id="img"></button>
 
-<button class="botao2" id="pix" onclick="pixo()" type="button"><img src="pix.png" width="80%" id="img"></button>
+<button class="botao2" id="pix" onclick="pixo()" type="button"><img src="pix.png"  id="img"></button>
 
-<button class="botao3" id="paypal" onclick="paypale()" type="button"><img src="Paypal.png" width="80%" id="img"></button>
+<button class="botao3" id="paypal" onclick="paypale()" type="button"><img src="Paypal.png"  id="img"></button>
 
 </div>
 <div class="div17 hidden" id="card-info" >
-    <dl>
+    
         <input class="lugarzinhos2" type="text" id="card number" name="number" placeholder="Nº do Cartão" maxlength="19">
 
         <select name="tipos" id="tipos">
@@ -70,20 +70,19 @@
           </select>
         
     
-    </dl>
-    <dl>
+    
         <input class="lugarzinhos2" type="text" id="email" name="name"
         placeholder="Nome">
     
-    </dl>
-    <dl>
+    
         <input class="lugarzinhos2" type="date" id="data-validade" name="date">
     
-    </dl>
-    <dl>
+   
         <input class="lugarzinhos2" type="text" id="Scode" name="number" placeholder="Codigo de Segurança" maxlength="3">
     
-    </dl> 
+    
+
+    
 </div>
 <div class="div18 hidden" id="pix-info" >
     <h1 class="otitu">↓Chave Pix↓</h1>
@@ -103,44 +102,51 @@
 
     
 
-    <dl>
+   
         <label id="titulos" for="fname">Email</label>
-    </dl>
-    <dl>
+    
         <input class="lugarzinhos" type="text" id="email" name="email">
     
-    </dl>
-
-    <dl>
+    
         <label id="titulos" for="fname">Nome</label>
-    </dl>
-    <dl>
+    
         <input class="lugarzinhos" type="text" id="name" name="fname">
     
-    </dl>
+    
 
     
-    <dl>
+  
         <label id="titulos" for="fname">Senha</label>
-    </dl>
-    <dl>
+   
         <input class="lugarzinhos" type="text" id="password" name="password">
     
-    </dl>
+    
 
-    <dl>
+    
         <label id="titulos" for="fname">Repita a Senha</label>
-    </dl>
-    <dl>
+    
+   
         <input class="lugarzinhos" type="text" id="password2" name="">
     
-    </dl>
     
-<dl>
+
+<label id="titulos" for="fname">Escolha seu plano</label>
+   
+<select name="tipos" id="Planos">
+
+        <option value="Consciente">Consciente</option>
+        <option value="astro">Astro</option>
+        <option value="Solariano">Solariano</option>
+        
+      </select>
+    
+<h1>
+    
+</h1>
     <button type="button" id="submit"> Enviar </button>
     <button type="reset" id="reset" onclick="resetcards()" > Apagar </button>
 
-</dl>
+
 
 
 

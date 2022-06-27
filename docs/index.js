@@ -26,12 +26,6 @@ function pixo() {
     document.getElementById("paypal-info").classList.remove('visible');
   }
 
-  if (document.getElementById("card-info").classList.contains('visible')){
-
-
-
-
-
-  }
+  
 
  
