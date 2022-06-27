@@ -481,11 +481,12 @@ margin-right: auto;
  
   }
 
-  .section8{background-color: rgb(42, 45, 52); padding-bottom: 5vw; height: 70vw;  }
+  .section8{background-color: rgb(42, 45, 52); padding-bottom: 5vw; height: 100vh;  }
 
   .molding8{
 margin-left: 18%;
-
+left: 50%;
+right: 50%;
   }
   
 
