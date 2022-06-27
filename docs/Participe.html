@@ -57,7 +57,7 @@
 <button class="botao3" id="paypal" onclick="paypale()" type="button"><img src="Paypal.png" width="80%" id="img"></button>
 
 </div>
-<div class="div17" id="card-info" >
+<div class="div17 hidden" id="card-info" >
     <dl>
         <input class="lugarzinhos2" type="text" id="card number" name="number" placeholder="Nº do Cartão" maxlength="19">
 
@@ -85,20 +85,21 @@
     
     </dl> 
 </div>
-<div class="div18" id="pix-info" >
-    <h1 class="otitu"> Nosso Pix</h1>
+<div class="div18 hidden" id="pix-info" >
+    <h1 class="otitu">↓Chave Pix↓</h1>
     <dl class="opix">09990000999-00</dl>
     <dl class="opix">Nome - Solarus</dl>
      </div>
-<div class="div19" id="paypal-info" >
-    <h1 class="otitu"> Nosso Paypal</h1>
+
+<div class="div19 hidden" id="paypal-info" >
+    <h1 class="otitu">↓ Paypal ↓</h1>
     <dl class="opix">Solarus@gmail.org</dl>
-    
+  
     
 
 </div>
 
-<div class="div15"> 
+<div class="div15" > 
 
     
 
@@ -136,8 +137,8 @@
     </dl>
     
 <dl>
-    <button type="submit" id="submit"> Enviar </button>
-    <button type="reset" id="reset"> Apagar </button>
+    <button type="button" id="submit"> Enviar </button>
+    <button type="reset" id="reset" onclick="resetcards()" > Apagar </button>
 
 </dl>
 

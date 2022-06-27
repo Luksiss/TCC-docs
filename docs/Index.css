@@ -543,13 +543,21 @@ margin-left: 18%;
     .div16 { grid-area: 1 / 2 / 2 / 3;  margin-left: auto;
       margin-right: auto; }
     .div17 { grid-area: 1 / 2 / 3 / 3;; width: 25vw; border: rgb(42, 45, 52) solid ;margin-left: auto;border-radius: 12px;
-      margin-right: auto; margin-top: 5vw;margin-bottom: 10vw;display:none;  }
+      margin-right: auto; margin-top: 5vw;margin-bottom: 10vw;
+      visibility: hidden;
+      opacity: 0; }
 
       .div18 { grid-area: 1 / 2 / 3 / 3;; width: 25vw; border: rgb(42, 45, 52) solid ;margin-left: auto;border-radius: 12px ;
-        margin-right: auto; margin-top: 5vw;margin-bottom: 10vw; display:none ; }
+        margin-right: auto; margin-top: 5vw;margin-bottom: 10vw;  
+        visibility: hidden;
+        opacity: 0;}
 
         .div19 { grid-area: 1 / 2 / 3 / 3;; width: 25vw; border: rgb(42, 45, 52) solid ;margin-left: auto; border-radius: 12px ;
-          margin-right: auto; margin-top: 5vw;margin-bottom: 10vw;display: none;  }
+          margin-right: auto; margin-top: 5vw;margin-bottom: 10vw;  
+          
+          visibility: hidden;
+          opacity: 0;
+          }
 
     #titulos{
       font-size: 2.5vw;
@@ -571,7 +579,12 @@ font-size:1vw ;
     border-radius: 8px;
     font-family: font2;
     font-size: 1.3vw;
+    transition-duration: 0.4s;
     }
+
+    #submit:hover{ background-color: darkslategray;}
+    #reset:hover{ background-color: darkred;}
+
 
     #reset{ width: 5vw; height: 4vw;
       background-color: white;
@@ -579,6 +592,7 @@ font-size:1vw ;
     border-radius: 8px;
     font-family: font2;
     font-size: 1.3vw;
+    transition-duration: 0.4s;
     
     }
 
@@ -599,11 +613,20 @@ font-size:1vw ;
 
     }
 
-    .blocko{display: block;}
-    .nada{display: none;}
+    .visible {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 0.5s linear;
+    }
+    
+    
 
     .opix{font-size: 2vw;
     font-family:Arial, Helvetica, sans-serif; text-align: center;}
   
     .otitu{text-align: center; font-size: 3vw; font-family: font2;}
   
+    #data-validade{
+width: 8vw;
+
+    }
