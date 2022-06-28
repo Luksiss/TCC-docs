@@ -544,24 +544,24 @@ right: 50%;
     grid-row-gap: 0px;
     }
     
-    .div15 { grid-area: 1 / 1 / 2 / 2; height: 70vh; }
+    .div15 { grid-area: 1 / 1 / 2 / 2; height: max-content; }
     .div16 { grid-area: 1 / 2 / 2 / 3; margin-left: auto;
-      margin-right: auto; }
+      margin-right: auto; height: max-content;}
     .div17 { grid-area: 1 / 2 / 2 / 3; width: 25vw; border: rgb(42, 45, 52) solid 0.1vw ;margin-left: auto;border-radius: 1vw;
       height: 43vh;
-      margin-right: auto; margin-top: 5vw;
+      margin-right: auto; margin-top: 30%; height: max-content;
       visibility: hidden;
       opacity: 0; }
 
       .div18 { grid-area: 1 / 2 / 2 / 3; width: 25vw; border: rgb(42, 45, 52) solid ;margin-left: auto;border-radius: 12px;
         height: 40vh;
-        margin-right: auto; margin-top: 5vw;
+        margin-right: auto; margin-right: auto; margin-top: 30%; height: max-content;
         visibility: hidden;
         opacity: 0; }
 
         .div19 { grid-area: 1 / 2 / 2 / 3; width: 25vw; border: rgb(42, 45, 52) solid ;margin-left: auto;border-radius: 12px;
           height: 40vh;
-          margin-right: auto; margin-top: 5vw;
+          margin-right: auto; margin-right: auto; margin-top: 30%; height: max-content;
           visibility: hidden;
           opacity: 0;
           }
@@ -652,7 +652,7 @@ width: 15vw;
 .forms{
 
   width: 90vw;
-  height: max-content;
+  height: min-content;
   margin-top: 5vh;
 }
 
@@ -669,7 +669,7 @@ width: 15vw;
 
 .lugarzinhos2{width: 30vw; height: 12px;font-size: 3vw; }
 
-#tipos{ width: 23vw; height: 16px;font-size: 3vw;}
+#tipos{ width: 23vw; height: 16px;font-size: 2vw;}
 
 #data-validade{
 width: 25vw;
