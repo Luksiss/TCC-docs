@@ -653,9 +653,10 @@ width: 15vw;
 
   width: 90vw;
   height: max-content;
+  margin-top: 5vh;
 }
 
-.section8{height: 120vw;}
+.section8{height: max-content;}
 
 .molding8{ margin-left: 2%;
 }
