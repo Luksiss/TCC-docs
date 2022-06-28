@@ -44,7 +44,7 @@
 </section>
 <section class="section8">
 <div class="molding8">
-    <form class="forms">
+    <form class="forms" method="post" name="Form" onsubmit="return validateForm()" action="Sobre.html">
        <div class="molding9">
         
 
@@ -71,7 +71,7 @@
         
     
     
-        <input class="lugarzinhos2" type="text" id="email" name="name"
+        <input class="lugarzinhos2" type="text" id="email" name="titular"
         placeholder="Nome">
     
     
@@ -110,7 +110,7 @@
     
         <label id="titulos" for="fname">Nome</label>
     
-        <input class="lugarzinhos" type="text" id="name" name="fname">
+        <input class="lugarzinhos" type="text" id="name" name="nome">
     
     
 
@@ -126,7 +126,7 @@
         <label id="titulos" for="fname">Repita a Senha</label>
     
    
-        <input class="lugarzinhos" type="text" id="password2" name="">
+        <input class="lugarzinhos" type="text" id="password2" name="password2">
     
     
 
@@ -143,7 +143,9 @@
 <h1>
     
 </h1>
-    <button type="button" id="submit"> Enviar </button>
+
+    <button type="button" value="submit" id="submit" onclick="validateForm()" > Enviar </button>
+    
     <button type="reset" id="reset" onclick="resetcards()" > Apagar </button>
 
 
