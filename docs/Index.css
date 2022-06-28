@@ -652,10 +652,10 @@ width: 15vw;
 .forms{
 
   width: 90vw;
-  height: 94vh;
+  height: 110vh;
 }
 
-.section6{height: auto;}
+.section8{height: 120vh;}
 
 .molding8{ margin-left: 2%;
 }
@@ -664,7 +664,7 @@ width: 15vw;
 
 .lugarzinhos{width: 32vw; height: 12px;font-size: 3vw; }
 
-#Planos{ width: 32vw; height: 24px; font-size: 5vw;}
+#Planos{ width: 32vw; height: 24px; font-size: 4vw;}
 
 .lugarzinhos2{width: 30vw; height: 12px;font-size: 3vw; }
 
@@ -687,17 +687,17 @@ height: auto;}
   .botao3{ width: 10vw;
     height: auto;}
 
-    .div17{width: 40vw;margin-top: 12vh; height: auto;}
-    .div18{width: 40vw;margin-top: 12vh; height: auto;}
-    .div19{width: 40vw;margin-top: 12vh; height: auto;}
+    .div17{width: 40vw;margin-top: 50%; margin-bottom: 50%; height: 38vh;}
+    .div18{width: 40vw;margin-top: 50%; margin-bottom: 50%; height: 45vh;}
+    .div19{width: 40vw;margin-top: 50%; margin-bottom: 50%; height: 38vh;}
 
     .otitu{font-size: 5vw;}
 
     .opix{ font-size: 3vw;}
 
-#submit{width: 20vw; height: auto; font-size: 5vw; text-align: center;}
+#submit{width: 20vw; height: auto; font-size: 12px; text-align: center;}
 
-#reset{width: 20vw; height: auto; font-size: 5vw;}
+#reset{width: 20vw; height: auto; font-size: 12px;}
 
     }
 
