@@ -677,13 +677,13 @@ font-size: 3vw;
 #img{width: 100%; height: auto;}
 
 .botao1{ width: 10vw;
-height: 30px;}
+height: auto;}
 
 .botao2{ width: 10vw;
-  height: 30px;}
+  height: auto;}
 
   .botao3{ width: 10vw;
-    height: 30px;}
+    height: auto;}
 
     .div17{width: 40vw;margin-top: 12vh; height: 120px;}
     .div18{width: 40vw;margin-top: 12vh; height: 105px;}
