@@ -652,8 +652,10 @@ width: 15vw;
 .forms{
 
   width: 90vw;
-  height: 310px;
+  height: 94vh;
 }
+
+.section6{height: auto;}
 
 .molding8{ margin-left: 2%;
 }
@@ -693,9 +695,9 @@ height: auto;}
 
     .opix{ font-size: 3vw;}
 
-#submit{width: 20vw; height: 30px; font-size: 6vw; text-align: center;}
+#submit{width: 20vw; height: auto; font-size: 5vw; text-align: center;}
 
-#reset{width: 20vw; height: 30px; font-size: 6vw;}
+#reset{width: 20vw; height: auto; font-size: 5vw;}
 
     }
 
