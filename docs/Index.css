@@ -544,7 +544,7 @@ right: 50%;
     grid-row-gap: 0px;
     }
     
-    .div15 { grid-area: 1 / 1 / 2 / 2; height: 50vw; }
+    .div15 { grid-area: 1 / 1 / 2 / 2; height: 70vh; }
     .div16 { grid-area: 1 / 2 / 2 / 3; margin-left: auto;
       margin-right: auto; }
     .div17 { grid-area: 1 / 2 / 2 / 3; width: 25vw; border: rgb(42, 45, 52) solid 0.1vw ;margin-left: auto;border-radius: 1vw;
@@ -652,7 +652,7 @@ width: 15vw;
 .forms{
 
   width: 90vw;
-  height: 90vw;
+  height: max-content;
 }
 
 .section8{height: 120vw;}
@@ -695,7 +695,7 @@ height: auto;}
 
     .opix{ font-size: 3vw;}
 
-#submit{width: 20vw; height: auto; font-size: 12px; text-align: center;}
+#submit{width: 20vw; height: auto; font-size: 12px; text-align: center; }
 
 #reset{width: 20vw; height: auto; font-size: 12px;}
 
