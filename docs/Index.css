@@ -674,7 +674,7 @@ height: 12px;
 font-size: 3vw;
 
 }
-#img{width: 100%;}
+#img{width: 100%; height: auto;}
 
 .botao1{ width: 10vw;
 height: 30px;}
