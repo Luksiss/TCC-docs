@@ -44,7 +44,7 @@
 </section>
 <section class="section8">
 <div class="molding8">
-    <form class="forms" method="post" name="Form" onsubmit="return validateForm()" action="Sobre.html">
+    <form class="forms" method="post" name="Form" onsubmit="return validateForm()" action="Sobre.html" id="forms" >
        <div class="molding9">
         
 
@@ -144,11 +144,22 @@
     
 </h1>
 
-    <button type="button" value="submit" id="submit" onclick="validateForm()" > Enviar </button>
+    <button type="button" value="submit" id="submit" onclick="validateForm(); reset()" name="submit" > Enviar </button>
     
     <button type="reset" id="reset" onclick="resetcards()" > Apagar </button>
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
+ 
+    <span class="close">&times;</span>
+  
+   
+    <img class="modal-content" id="img01" src="Vlw.png">
+  
+   
+    <div id="caption"></div>
+  </div>
 
 
 
