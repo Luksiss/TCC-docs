@@ -652,7 +652,7 @@ width: 15vw;
 .forms{
 
   width: 90vw;
-  height: 80vw;
+  height: 90vw;
 }
 
 .section8{height: 120vw;}
@@ -687,9 +687,9 @@ height: auto;}
   .botao3{ width: 10vw;
     height: auto;}
 
-    .div17{width: 40vw;margin-top: 50%; margin-bottom: 50%; height: fit-content;}
-    .div18{width: 40vw;margin-top: 50%; margin-bottom: 50%; height: fit-content;}
-    .div19{width: 40vw;margin-top: 50%; margin-bottom: 50%; height: fit-content;}
+    .div17{width: 40vw;margin-top: 50%; margin-bottom: 50%; height:max-content;}
+    .div18{width: 40vw;margin-top: 50%; margin-bottom: 50%; height: max-content;}
+    .div19{width: 40vw;margin-top: 50%; margin-bottom: 50%; height: max-content;}
 
     .otitu{font-size: 5vw;}
 
