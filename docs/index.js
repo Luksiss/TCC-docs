@@ -35,7 +35,7 @@ function pixo() {
     var c = document.forms["Form"]["password"].value;
     var d = document.forms["Form"]["password2"].value;
     if (a == null || a == "", b == null || b == "", c == null || c == "", d == null || d == "") {
-      alert("Por favor preencha o formulrio");
+      alert("Por favor preencha o formulrio...");
       return false;
       
     }
