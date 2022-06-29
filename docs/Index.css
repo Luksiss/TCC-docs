@@ -259,7 +259,7 @@ i:after {
 	right: 1rem;
 }
 
-/* I haven't found a way for IE and Edge to let me style .inputs that way */
+
 .input {
 	appearance: none;
 	-ms-appearance: none;
@@ -870,6 +870,7 @@ height: auto;}
 }
 
 
+#last i:after {display: none;}
 
 
     
