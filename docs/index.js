@@ -35,16 +35,16 @@ function pixo() {
     var c = document.forms["Form"]["password"].value;
     var d = document.forms["Form"]["password2"].value;
     if (a == null || a == "", b == null || b == "", c == null || c == "", d == null || d == "") {
-      alert("Por favor preencha o formulario...");
+      alert("Por favor preencha o formulario!");
       return false;
       
     }
 
     
-    // Get the modal
+    // modal
 var modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+
 var img = document.getElementById("submit");
 var modalImg = document.getElementById("img01");
  img.onclick = function(){
@@ -53,10 +53,10 @@ var modalImg = document.getElementById("img01");
 
 }
 
-// Get the <span> element that closes the modal
+
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
+
 span.onclick = function() {
   modal.style.display = "none";
 }
